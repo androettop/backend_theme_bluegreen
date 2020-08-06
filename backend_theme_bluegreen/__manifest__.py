@@ -13,5 +13,6 @@
     'depends': ['web_responsive'],
     'data': [
         'views/views.xml',
-    ]
+    ],
+    'images': ['images/menu.png','images/views.png']
 }
