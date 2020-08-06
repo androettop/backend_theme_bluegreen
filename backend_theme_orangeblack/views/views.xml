@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template
+        id="assets_color"
+        name="Color css variables"
+        inherit_id="web._assets_primary_variables"
+    >
+        <xpath expr=".">
+            <link
+                rel="stylesheet"
+                href="/backend_theme_orangeblack/static/src/css/color.scss"
+            />
+        </xpath>
+    </template>
+    <template
+        id="assets_backend"
+        name="Theme Assets"
+        inherit_id="web.assets_backend"
+    >
+        <xpath expr=".">
+            <link
+                rel="stylesheet"
+                href="/backend_theme_orangeblack/static/src/css/theme.scss"
+            />
+        </xpath>
+    </template>
+</odoo>
