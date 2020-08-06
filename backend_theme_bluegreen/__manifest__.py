@@ -14,5 +14,5 @@
     'data': [
         'views/views.xml',
     ],
-    'images': ['images/menu.png','images/views.png']
+    'images': ['images/menu_screenshot.png','images/views.png']
 }
