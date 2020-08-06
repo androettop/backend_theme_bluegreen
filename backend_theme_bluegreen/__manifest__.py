@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "backend_theme_bluegreen",
-    'summary': "Blue green backend theme",
-    'description': "Blue green backend theme",
+    'name': "Blue and green backend theme",
+    'summary': "Blue and green backend theme",
+    'description': "Blue and green backend theme",
     'author': "Pablo Androetto",
     'website': "http://www.pabloandroetto.com",
     'category': 'Theme',
