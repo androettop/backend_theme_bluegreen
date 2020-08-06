@@ -1,0 +1,36 @@
+@function tint($color, $percentage) {
+    @return mix(white, $color, $percentage);
+}
+
+@function shade($color, $percentage) {
+    @return mix(black, $color, $percentage);
+}
+
+.o_form_view .oe_button_box .oe_stat_button .o_button_icon {
+    color: $o-brand-odoo;
+}
+
+// Required fields
+.o_required_modifier {
+    &.o_input,
+    .o_input {
+        background-color: tint($o-brand-primary, 60%) !important;
+    }
+}
+
+button.o-kanban-button-new > span {
+    display: inline !important;
+}
+
+.o_mail_systray_item .o_notification_counter {
+    background-color: $o-brand-primary;
+    color: color-yiq($o-brand-primary);
+}
+
+.o_field_widget.o_field_many2one .o_external_button {
+    color: $o-brand-primary;
+}
+
+.badge-pill{
+    border-radius: 10rem;
+}
