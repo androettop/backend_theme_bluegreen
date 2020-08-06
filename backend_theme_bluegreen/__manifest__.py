@@ -5,7 +5,7 @@
     'description': "Blue and green backend theme",
     'author': "Pablo Androetto",
     'website': "http://www.pabloandroetto.com",
-    'images': ['static/description/banner.png','static/description/view_screenshot.png','images/menu_screenshot.png']
+    'images': ['static/description/banner.png','static/description/view_screenshot.png','images/menu_screenshot.png'],
     'category': 'Theme',
     'version': '1.0',
     'price': 49.99,
